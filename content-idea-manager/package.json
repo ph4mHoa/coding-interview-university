@@ -1,0 +1,16 @@
+{
+  "name": "content-idea-manager",
+  "version": "1.0.0",
+  "description": "Content Idea Manager - Full Stack Application",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "db:init": "cd backend && npm run init-db",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  },
+  "keywords": ["content", "idea", "manager", "fastify", "nextjs"],
+  "author": "",
+  "license": "MIT"
+}
